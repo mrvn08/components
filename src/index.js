@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import CommentDetail from './CommentDetail';
+import ApprovalCard from './ApprovalCard'; 
 import Faker from 'faker';
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
                 datePosted="Yesterday at 12:00PM"
                 commentText="oha sodasdkalsjdalsjdl a sdl as jalskjdlj sakd"    
             />
+            <ApprovalCard />
         </div> 
     );
 };
